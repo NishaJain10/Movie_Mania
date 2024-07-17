@@ -1,0 +1,34 @@
+.container {
+    max-width: 100%;
+    padding: 2rem 1.5rem;
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    background-color: #f0f0f0; /* Adds a light grey background */
+    border: 1px solid #ccc; /* Adds a light grey border */
+    border-radius: 10px; /* Adds rounded corners */
+}
+
+ul {
+    display: flex; /* Keeps the alignment horizontal */
+    gap: 1.5rem; /* Sets the gap between list items */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    list-style: none; /* Removes default list style */
+}
+
+li {
+    list-style: none; /* Ensures list items have no default style */
+    padding: 1rem; /* Adds padding to each list item */
+    background-color: #fff; /* Adds a white background to list items */
+    border: 1px solid #ddd; /* Adds a light grey border to list items */
+    border-radius: 5px; /* Adds rounded corners to list items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adds transition for hover effect */
+}
+
+/* Hover effect */
+li:hover {
+    transform: translateY(-5px); /* Moves the item up slightly */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Intensifies the shadow */
+}
